@@ -15,11 +15,12 @@ You can find the documentation & test the API @ http://<app_host>:<app_port>/api
 
 lib source: https://logiciels.cnes.fr/en/content/propa
 
+Deploy in openshift:
+oc new-project gm-test
+oc new-app https://github.com/gmiraval/propa-ose.git
+oc expose svc propa-ose
+
 sample API:
-https://propaapi.herokuapp.com/
+https://propa-ose-gm-test.apps.us-east-1.online-starter.openshift.com/version
 
-https://propaapi.herokuapp.com/version
-
-https://propaapi.herokuapp.com/api-docs/
-
-ToDo: Use AWS + API GW + lambda
+https://propa-ose-gm-test.apps.us-east-1.online-starter.openshift.com/api-docs/
