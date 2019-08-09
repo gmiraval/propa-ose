@@ -6,7 +6,7 @@ info:
 #host: localhost:10010
 
 #production host
-host: propa-ose-gm-test.apps.us-east-1.online-starter.openshift.com
+host: propa-ose-propa-ose.apps.us-east-1.online-starter.openshift.com
 # basePath prefixes all resource paths 
 basePath: /
 # 
