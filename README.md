@@ -21,6 +21,7 @@ oc new-app https://github.com/gmiraval/propa-ose.git
 oc expose svc propa-ose
 
 sample API:
+
 https://propa-ose-gm-test.apps.us-east-1.online-starter.openshift.com/version
 
 https://propa-ose-gm-test.apps.us-east-1.online-starter.openshift.com/api-docs/
