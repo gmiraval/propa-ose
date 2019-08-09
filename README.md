@@ -9,6 +9,8 @@ e-mail: miravallesg@gmail.com
 
 This is a Rest API that implements the different functions provided by the propa library to compute propagation losses according to the ITU-R P. Recommendations
 
+NOTE:This version has been modified without heroku's newrelic add on to work on openshift.com
+
 You can find the documentation & test the API @ http://<app_host>:<app_port>/api-doc
 
 lib source: https://logiciels.cnes.fr/en/content/propa
