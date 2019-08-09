@@ -17,7 +17,7 @@ lib source: https://logiciels.cnes.fr/en/content/propa
 
 Deploy in openshift:
 
-oc new-project gm-test
+oc new-project propa-ose
 
 oc new-app https://github.com/gmiraval/propa-ose.git
 
@@ -25,6 +25,6 @@ oc expose svc propa-ose
 
 sample API:
 
-https://propa-ose-gm-test.apps.us-east-1.online-starter.openshift.com/version
+https://propa-ose-propa-ose.apps.us-east-1.online-starter.openshift.com/version
 
-https://propa-ose-gm-test.apps.us-east-1.online-starter.openshift.com/api-docs/
+https://propa-ose-propa-ose.apps.us-east-1.online-starter.openshift.com/api-docs/
