@@ -23,7 +23,7 @@ SwaggerExpress.create(config, function(err, swaggerExpress) {
  // add documentation
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-  var port = process.env.PORT || 10010;
+  var port = process.env.PORT || 8080;
   app.listen(port);
 
   if (swaggerExpress.runner.swagger.paths['/version']) {
